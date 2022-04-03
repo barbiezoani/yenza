@@ -42,4 +42,42 @@
       <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
     </div>
   </div>
+  <div class='about'>
+    <div id='info'>
+      <h3>About me</h3>
+      <p>Contact info</p>
+    </div>
+    <div id="map" style="height: 300px; width: 300px"></div>
+    <div id="map-2" style="height: 300px; width: 300px"></div>
+    <script>
+      mapboxgl.accessToken = 'pk.eyJ1Ijoic29sYnVrZXIiLCJhIjoiY2t6OGdoanJ5MHZhYjJubjl0cHEydWJuZiJ9.Wq7Of_lX1UPg_iyziPLs7w';
+      const map = new mapboxgl.Map({
+      container: 'map', // container ID
+      style: 'mapbox://styles/mapbox/streets-v11', // style URL
+      center: [-74.5, 40], // starting position [lng, lat]
+      zoom: 10 // starting zoom
+      });
+      const marker = new mapboxgl.Marker({
+        color: "#1C9B98"
+      })
+        .setLngLat([-74.5, 40])
+        .setPopup(new mapboxgl.Popup().setHTML("<p>"+"Address"+"</p>"))
+        .addTo(map);
+    </script>
+    <script>
+      mapboxgl.accessToken = 'pk.eyJ1Ijoic29sYnVrZXIiLCJhIjoiY2t6OGdoanJ5MHZhYjJubjl0cHEydWJuZiJ9.Wq7Of_lX1UPg_iyziPLs7w';
+      const map2 = new mapboxgl.Map({
+      container: 'map-2', // container ID
+      style: 'mapbox://styles/mapbox/streets-v11', // style URL
+      center: [-74.5, 40], // starting position [lng, lat]
+      zoom: 10 // starting zoom
+      });
+      const marker2 = new mapboxgl.Marker({
+        color: "#1C9B98"
+      })
+        .setLngLat([-74.5, 40])
+        .setPopup(new mapboxgl.Popup().setHTML("<p>"+"Address"+"</p>"))
+        .addTo(map2);
+    </script>
+  </div>
 </div>
