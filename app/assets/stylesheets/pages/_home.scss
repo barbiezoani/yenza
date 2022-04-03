@@ -3,21 +3,23 @@ body {
   background: #FFFFFF;
   font-family: Lato, Arial, sans-serif;
   color: rgb(45, 38, 59);
+  font-size: 1.1rem;
+  line-height: 1.7;
 }
 
 .header {
   font-weight: 700;
   text-align: center;
   font-family: Walsheim, Arial, sans-serif;
-  font-size: 50px;
+  font-size: 65px;
   margin-top: 90px;
   margin-bottom: 10px;
   color: rgb(45, 38, 59);
-  letter-spacing: 8px;
+  letter-spacing: 6px;
 }
 
 .subheader {
-  font-weight: 300;
+  font-weight: 700;
   text-align: center;
   font-family: Lato, Arial, sans-serif;
   font-size: 21px;
@@ -30,10 +32,11 @@ body {
 
 }
 
-// .container {
-//   width: 800px;
-//   margin: 0 auto;
-// }
+.container {
+  width: 80vw;
+  height: 80vh;
+  margin: 0 auto;
+}
 
 //QUEDABA LINDA LA LETRA
 // .secondary-header-teal {
@@ -56,6 +59,10 @@ body {
   color: #2d263b;
   padding: 15px;
   text-align: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 15px;
+
 }
 
 .three-boxes{
@@ -68,15 +75,21 @@ body {
 
 .box{
   padding: 15px;
+  margin: 20px;
 }
 
 .fa-solid{
-  font-size: 25px;
+  font-size: 50px;
+  margin-bottom: 30px;
 }
 
 .section {
-  font-family: Walsheim, Arial, sans-serif;
-  color: #1D9B98;
+  // font-family: Walsheim, Arial, sans-serif;
+  font-family:  Lato, Arial, sans-serif;
+  color:  rgb(45, 38, 59);
   letter-spacing: 2px;
+  margin-bottom: 20px;
   font-weight: 700;
+  font-size: 1.2rem;
+  text-transform: uppercase;
 }
