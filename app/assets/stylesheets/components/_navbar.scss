@@ -13,23 +13,23 @@
 
 .nav-link {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 17px;
   line-height: 1.375;
-  color: #2d263b;
+  color: black !important;
   font-weight: 400;
   // place-self: center stretch;
   border-bottom: 1px solid transparent;
   transition: border-bottom 0.3s ease-in-out 0s;
   margin: 5px 20px 6px;
   font-family: Lato, sans-serif;
-  color: #2d263b;
+  // color: #2d263b;
   &:hover {
     border-bottom-color: rgb(45, 38, 59);
   }
 }
 
-#navbarDropdown{
-  margin-right: 30px;
-  margin-top: 10px;
-  margin-left:10px;
-}
+// #navbarDropdown{
+//   margin-right: 30px;
+//   margin-top: 10px;
+//   margin-left:10px;
+// }
