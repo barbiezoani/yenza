@@ -1,6 +1,8 @@
 // Specific CSS for your home-page
 body {
   background: #FFFFFF;
+  font-family: Lato, Arial, sans-serif;
+  color: rgb(45, 38, 59);
 }
 
 .header {
@@ -21,6 +23,10 @@ body {
   font-size: 21px;
   line-height: 1.375;
   color: rgb(45, 38, 59);
+  border-bottom: 1px solid grey;
+  width: fit-content;
+  margin: auto;
+  padding-bottom: 10px;
 
 }
 
@@ -31,7 +37,7 @@ body {
 
 .secondary-header-teal {
   color: #1D9B98;
-  font-family: "Josefin Sans";
+  font-family: Walsheim, Arial, sans-serif;;
   font-weight: 600;
   line-height: 40px;
   letter-spacing: 1.6px;
@@ -42,8 +48,8 @@ body {
 }
 
 .secondary-description {
-  font-family: "Josefin Sans";
-  font-weight: 600;
+  font-family:  Lato, Arial, sans-serif;
+  font-weight: 300;
   line-height: 40px;
   font-size: 28px;
   color: #2d263b;
@@ -54,11 +60,16 @@ body {
 .three-boxes{
   display: flex;
   justify-content: space-between;
-  font-family: "Josefin Sans";
+  // font-family: "Josefin Sans";
   text-align: center;
   padding: 20px;
 }
 
 .box{
   padding: 15px;
+}
+
+.section {
+  font-family: Walsheim, Arial, sans-serif;
+  color: rgb(45, 38, 59);
 }
