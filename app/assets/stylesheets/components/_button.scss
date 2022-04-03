@@ -1,4 +1,4 @@
-button {
+.button-section {
   border: 2px solid #1D9B98;
   color: #1D9B98;
   border-radius: 23px;
@@ -6,4 +6,14 @@ button {
   background: #FFFFFF;
   font-size: 18px;
   font-family: Lato, Arial, sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 10px 20px;
+  transition: 400ms;
+  margin: 20px 0px;
+  &:hover {
+    background-color: #1D9B98;
+    color: white;
+
+  }
 }

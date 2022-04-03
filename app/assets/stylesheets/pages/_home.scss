@@ -33,8 +33,7 @@ body {
 }
 
 .container {
-  width: 80vw;
-  height: 80vh;
+  width: 75vw;
   margin: 0 auto;
 }
 
@@ -71,6 +70,7 @@ body {
   // font-family: "Josefin Sans";
   text-align: center;
   padding: 20px;
+  margin-bottom: 20px;
 }
 
 .box{
@@ -91,5 +91,24 @@ body {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 1.2rem;
+  margin-top: 10px;
   text-transform: uppercase;
+}
+
+h3 {
+  font-weight: 700;
+  font-family: Walsheim, Arial, sans-serif;
+  font-size: 30px;
+  margin-top: 90px;
+  margin-bottom: 10px;
+  color: rgb(45, 38, 59);
+  letter-spacing: 6px;
+}
+
+p {
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.7;
+  font-family: Lato, sans-serif;
+  color: rgb(45, 38, 59);
 }
