@@ -12,7 +12,7 @@ body {
   text-align: center;
   font-family: Walsheim, Arial, sans-serif;
   font-size: 65px;
-  margin-top: 90px;
+  margin-top: 120px;
   margin-bottom: 10px;
   color: rgb(45, 38, 59);
   letter-spacing: 6px;
@@ -119,8 +119,20 @@ p {
   justify-content: space-between;
 }
 
-.maps{
+#maps{
   display: flex;
-  padding: 20px;
+  padding: 30px;
   justify-content: space-between;
+}
+
+.map-styling{
+  display: flex;
+}
+
+#map-1{
+  margin: 0 25px;
+}
+
+#map-2{
+  margin: 0 25px;
 }
