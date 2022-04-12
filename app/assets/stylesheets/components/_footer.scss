@@ -1,9 +1,8 @@
 #footer {
   background: #1D9B98;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 100px;
+  // display: flex;
+  text-align: center;
+  // justify-content: space-evenly;
   padding: 0px 50px;
   color: rgb(236, 236, 236);
 }
@@ -31,4 +30,16 @@
   text-align: left;
   font-family: Lato, Arial, sans-serif;
   line-height: 1.25em;
+}
+
+// .row .footer {
+//   text-align: center;
+//   margin: auto;
+//   width: 70vw;
+
+// }
+
+.row {
+  width: 75vw;
+  margin: auto;
 }
