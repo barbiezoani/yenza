@@ -127,29 +127,29 @@ p {
   color: rgb(45, 38, 59);
 }
 
-.about{
+.info{
   padding: 30px;
   display: flex;
   justify-content: space-between;
 }
 
-#maps{
-  display: flex;
-  padding: 30px;
-  justify-content: space-between;
-}
+// #maps{
+//   display: flex;
+//   padding: 30px;
+//   justify-content: space-between;
+// }
 
-.map-styling{
-  display: flex;
-}
+// .map-styling{
+//   display: flex;
+// }
 
-#map-1{
-  margin: 0 25px;
-}
+// #map-1{
+//   margin: 0 25px;
+// }
 
-#map-2{
-  margin: 0 25px;
-}
+// #map-2{
+//   margin: 0 25px;
+// }
 
 .img_preview {
   width: 50px;
@@ -157,4 +157,8 @@ p {
 
 img {
   width: 40%;
+}
+
+.image-about{
+  width: 20%;
 }
