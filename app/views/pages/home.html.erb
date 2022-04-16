@@ -2,26 +2,28 @@
   <br>
   <h2 class="subheader">DATA, CLOUD & NETWORKING</h2>
   <p class="secondary-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  <div class="three-boxes">
-    <div class="box-1 box">
-      <%# <img width="80" height="92" alt="Data Consulting"  src="https://www.clipartmax.com/png/full/347-3479406_empirical-advantage-advantage-authority-icon-digital-transformation-icon.png"> %>
-      <%# <i class="fa-solid fa-database"></i> %>
-      <%= image_tag("data.png")%>
-
-      <h3 class='section'>Data</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <br>
-      <a class="button-section" href="#card-1"  data-scroll-to-offset-value="150" data-controller="scroll-to">Learn More...</a>
+  <div class="row boxes">
+    <div class="col-xs-1 col-lg-4">
+      <div class="box-1 box">
+        <%= image_tag("data.png")%>
+        <h3 class='section'>Data</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <br>
+        <a class="button-section" href="#card-1"  data-scroll-to-offset-value="150" data-controller="scroll-to">Learn More...</a>
+      </div>
     </div>
-    <div class="box-2 box">
-      <%# <img width="80" height="92" alt="Data Consulting"  src="https://www.clipartmax.com/png/full/347-3479406_empirical-advantage-advantage-authority-icon-digital-transformation-icon.png"> %>
-      <%= image_tag("cloud.png") %>
-      <h3 class='section'>Cloud</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <br>
-      <a class="button-section" href="#card-2"  data-scroll-to-offset-value="150" data-controller="scroll-to">Learn More...</a>
+    <div class="col-xs-1 col-lg-4">
+      <div class="box-2 box">
+        <%# <img width="80" height="92" alt="Data Consulting"  src="https://www.clipartmax.com/png/full/347-3479406_empirical-advantage-advantage-authority-icon-digital-transformation-icon.png"> %>
+        <%= image_tag("cloud.png") %>
+        <h3 class='section'>Cloud</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <br>
+        <a class="button-section" href="#card-2"  data-scroll-to-offset-value="150" data-controller="scroll-to">Learn More...</a>
+      </div>
     </div>
-    <div class="box-3 box">
+    <div class="col-xs-1 col-lg-4">
+      <div class="box-3 box">
       <%# <img width="80" height="92" alt="Data Consulting"  src="https://www.clipartmax.com/png/full/347-3479406_empirical-advantage-advantage-authority-icon-digital-transformation-icon.png"> %>
       <%# <i class="fa-solid fa-calendar"></i> %>
       <%= image_tag("networking.png") %>
@@ -31,7 +33,10 @@
       <br>
       <a class="button-section" href="#card-3"  data-scroll-to-offset-value="150" data-controller="scroll-to">Learn More...</a>
     </div>
+    </div>
   </div>
+
+
   <div class='cards-info'>
     <div id="card-1">
       <h3>Data</h3>
