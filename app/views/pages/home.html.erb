@@ -5,8 +5,10 @@
   <div class="row boxes">
     <div class="col-xs-1 col-lg-4">
       <div class="box-1 box">
-        <%= image_tag("data.png")%>
-        <h3 class='section'>Data</h3>
+        <div class='header-box'>
+          <%= image_tag("data.png", class:'data-img')%>
+          <h3 class='section'>Data</h3>
+        </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <br>
         <a class="button-section" href="#card-1"  data-scroll-to-offset-value="150" data-controller="scroll-to">Learn More...</a>
@@ -14,9 +16,10 @@
     </div>
     <div class="col-xs-1 col-lg-4">
       <div class="box-2 box">
-        <%# <img width="80" height="92" alt="Data Consulting"  src="https://www.clipartmax.com/png/full/347-3479406_empirical-advantage-advantage-authority-icon-digital-transformation-icon.png"> %>
-        <%= image_tag("cloud.png") %>
-        <h3 class='section'>Cloud</h3>
+        <div class='header-box'>
+          <%= image_tag("cloud.png") %>
+          <h3 class='section'>Cloud</h3>
+        </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <br>
         <a class="button-section" href="#card-2"  data-scroll-to-offset-value="150" data-controller="scroll-to">Learn More...</a>
@@ -24,14 +27,13 @@
     </div>
     <div class="col-xs-1 col-lg-4">
       <div class="box-3 box">
-      <%# <img width="80" height="92" alt="Data Consulting"  src="https://www.clipartmax.com/png/full/347-3479406_empirical-advantage-advantage-authority-icon-digital-transformation-icon.png"> %>
-      <%# <i class="fa-solid fa-calendar"></i> %>
-      <%= image_tag("networking.png") %>
-
-      <h3 class='section'>Networking</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <br>
-      <a class="button-section" href="#card-3"  data-scroll-to-offset-value="150" data-controller="scroll-to">Learn More...</a>
+        <div class='header-box'>
+          <%= image_tag("networking.png") %>
+          <h3 class='section'>Networking</h3>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <br>
+        <a class="button-section" href="#card-3"  data-scroll-to-offset-value="150" data-controller="scroll-to">Learn More...</a>
     </div>
     </div>
   </div>
