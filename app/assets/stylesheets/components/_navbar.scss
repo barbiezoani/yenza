@@ -1,3 +1,9 @@
+@media(max-width: 460px) {
+  .navbar-brand {
+    min-width: -webkit-fill-available;
+  }
+}
+
 .navbar-lewagon {
   justify-content: space-between;
   background: white;
@@ -38,8 +44,8 @@
   font-family: Walsheim, Arial, sans-serif;
   // color: #2d263b;
   &:hover {
-    border-bottom-color: #1D9B98;
-    color: #1D9B98 !important;
+    border-bottom-color: rgb(36, 214, 181);
+    color: rgb(36, 214, 181) !important;
   }
 }
 
@@ -56,4 +62,30 @@
 .lang{
   opacity: 70%;
   font-size: 13px;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+
+//NO ANDA EL HOVER NO SE PORQUE (PARA LINEA DE ABAJO)
+.flag {
+  border-bottom: 1px solid transparent;
+  &:hover {
+    border-bottom-color: rgb(36, 214, 181);
+    color: rgb(36, 214, 181) !important;
+  }
+}
+
+.flag-no {
+  opacity: 50%;
+  &:hover {
+    border-bottom-color: rgb(36, 214, 181);
+    color: rgb(36, 214, 181) !important;
+  }
+}
+
+.flags {
+  text-align: end;
 }
