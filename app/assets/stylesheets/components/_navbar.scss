@@ -14,9 +14,16 @@
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 15vw;
+.navbar-lewagon .navbar-brand  {
+  // width: 15vw;
   // margin-top: 50px;
+
+}
+
+.navbar-brand {
+  height: 90% ;
+  width: auto;
+  margin: 0px !important;
 }
 
 .navbar{
@@ -57,6 +64,7 @@
 
 .container-fluid {
   padding: 0px 120px;
+  height: 9vh !important;
 }
 
 .lang{
