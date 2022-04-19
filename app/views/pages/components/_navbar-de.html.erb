@@ -10,24 +10,38 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class = "nav-link" href="#services" data-controller="scroll-to">Services</a>
+          </li>
           <li class="nav-item active">
-            <a class = "nav-link" href="#text" data-controller="scroll-to">About me</a>
+            <a class = "nav-link" href="#aboutme" data-controller="scroll-to">About me</a>
           </li>
           <li class="nav-item">
-            <a class = "nav-link" href="#contact-footer" data-controller="scroll-to">Contact info</a>
+            <a class = "nav-link" href="#contact-footer" data-controller="scroll-to">Contact</a>
           </li>
+          <li class="nav-item">
+            <a class = "nav-link" href="#nonprofit" data-controller="scroll-to">Non-profit</a>
+          </li>
+
+
       </ul>
     </div>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto">
+      <ul class="navbar-nav me-auto flags">
           <li class="nav-item">
-            <%= link_to "EN", root_path, class: 'nav-link lang'%>
+            <%= link_to root_path, class: "flag-no" do %>
+              <%= image_tag("us.png") %>
+            <% end %>
           </li>
           <li class="nav-item">
-            <%= link_to "FR", fr_path, class:'nav-link lang'%>
+            <%= link_to fr_path, class: "flag-no" do %>
+              <%= image_tag("fr.png") %>
+            <% end %>
           </li>
           <li class="nav-item">
-            <%= link_to "DE", de_path, class:'nav-link lang'%>
+            <%= link_to de_path, class: "flag" do %>
+              <%= image_tag("de.png") %>
+            <% end %>
           </li>
       </ul>
     </div>

@@ -1,6 +1,6 @@
 .button-section {
-  border: 2px solid #1D9B98;
-  color: #1D9B98;
+  border: 2px solid rgb(36, 214, 181);
+  color: rgb(36, 214, 181);
   border-radius: 23px;
   padding: 10px;
   background: #FFFFFF;
@@ -12,7 +12,7 @@
   transition: 400ms;
   margin: 20px 0px;
   &:hover {
-    background-color: #1D9B98;
+    background-color: rgb(36, 214, 181);
     color: white;
 
   }
