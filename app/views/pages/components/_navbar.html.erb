@@ -1,7 +1,7 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
   <div class="container-fluid">
     <%# <%= link_to root_path do %>
-    <%= image_tag("yenza_io.png", :class=> 'navbar-brand')%>
+    <%= image_tag("yenza_io.png", class: 'navbar-brand')%>
 
     <%# <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -10,16 +10,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto">
           <li class="nav-item">
-            <a class = "nav-link" href="#services" data-controller="scroll-to">Services</a>
+            <a class = "nav-link" href="#services" data-scroll-to-offset-value="150" data-controller="scroll-to">Services</a>
           </li>
           <li class="nav-item active">
-            <a class = "nav-link" href="#aboutme" data-controller="scroll-to">About me</a>
+            <a class = "nav-link" href="#aboutme" data-scroll-to-offset-value="150" data-controller="scroll-to">About me</a>
           </li>
           <li class="nav-item">
-            <a class = "nav-link" href="#contact-footer" data-controller="scroll-to">Contact</a>
+            <a class = "nav-link" href="#contact-footer" data-scroll-to-offset-value="150" data-controller="scroll-to">Contact</a>
           </li>
           <li class="nav-item">
-            <a class = "nav-link" href="#nonprofit" data-controller="scroll-to">Non-profit</a>
+            <a class = "nav-link" href="#nonprofit" data-scroll-to-offset-value="150" data-controller="scroll-to">Non-profit</a>
           </li>
 
 
@@ -28,18 +28,18 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto flags">
           <li class="nav-item">
-            <%= link_to root_path, class: "flag flag-active" do %>
-              <%= image_tag("us.png") %>
+            <%= link_to root_path do %>
+              <%= image_tag("us.png", class: "flag flag-active") %>
             <% end %>
           </li>
           <li class="nav-item">
-            <%= link_to fr_path, class: "flag flag-no" do %>
-              <%= image_tag("fr.png") %>
+            <%= link_to fr_path do %>
+              <%= image_tag("fr.png", class: "flag flag-no") %>
             <% end %>
           </li>
           <li class="nav-item">
-            <%= link_to de_path, class: "flag flag-no" do %>
-              <%= image_tag("de.png") %>
+            <%= link_to de_path do %>
+              <%= image_tag("de.png", class: "flag flag-no") %>
             <% end %>
           </li>
       </ul>
