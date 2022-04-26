@@ -26,7 +26,12 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto">
           <li class="nav-item dropdown">
-            <img class="dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" src="/assets/fr.png" />
+            <div class="dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <div class='dropdown-item-lang'>
+                <%= image_tag("fr.png", class: "flag-dropdown-item") %>
+                <p class='lang' >FR</p>
+              </div>
+            </div>
             <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
               <%= link_to root_path do %>
                 <div class='dropdown-item-lang'>
