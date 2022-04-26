@@ -21,29 +21,22 @@
           <li class="nav-item">
             <a class = "nav-link" href="#nonprofit" data-scroll-to-offset-value="150" data-controller="scroll-to">Non-profit</a>
           </li>
-
-
       </ul>
     </div>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto flags">
-          <li class="nav-item">
-            <%= link_to root_path do %>
-              <%= image_tag("us.png", class: "flag flag-no") %>
-            <% end %>
-          </li>
-          <li class="nav-item">
-            <%= link_to fr_path do %>
-              <%= image_tag("fr.png", class: "flag flag-active") %>
-            <% end %>
-          </li>
-          <li class="nav-item">
-            <%= link_to de_path do %>
-              <%= image_tag("de.png", class: "flag flag-no") %>
-            <% end %>
+      <ul class="navbar-nav me-auto">
+          <li class="nav-item dropdown">
+            <img class="dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" src="/assets/fr.png" />
+            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                <%= link_to root_path do %>
+                  <p><%= image_tag("us.png", class: "flag dropdown-item") %>EN</p>
+                <%end %>
+                <%= link_to de_path do %>
+                  <p><%= image_tag("de.png", class: "flag dropdown-item") %>DE</p>
+                <%end %>
+            </div>
           </li>
       </ul>
     </div>
-
   </div>
 </div>
