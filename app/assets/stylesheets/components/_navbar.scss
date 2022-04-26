@@ -99,6 +99,27 @@
   text-align: end;
 }
 
-.dropdown-item{
+.dropdown-item-lang{
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag-dropdown-item {
+  width: 30%;
+}
+
+.lang {
+  text-decoration: none;
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+
+.lang-item {
+  text-align: none;
+}
+
+a{
+  text-decoration: none ;
 }

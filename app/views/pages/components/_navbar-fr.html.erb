@@ -28,12 +28,18 @@
           <li class="nav-item dropdown">
             <img class="dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" src="/assets/fr.png" />
             <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                <%= link_to root_path do %>
-                  <p><%= image_tag("us.png", class: "flag dropdown-item") %>EN</p>
-                <%end %>
-                <%= link_to de_path do %>
-                  <p><%= image_tag("de.png", class: "flag dropdown-item") %>DE</p>
-                <%end %>
+              <%= link_to root_path do %>
+                <div class='dropdown-item-lang'>
+                  <%= image_tag("us.png", class: "flag-dropdown-item") %>
+                  <p class='lang' >EN</p>
+                </div>
+              <%end %>
+              <%= link_to de_path do %>
+              <div class='dropdown-item-lang'>
+                <%= image_tag("de.png", class: "flag-dropdown-item") %>
+                <p class='lang'>DE</p>
+              </div>
+              <%end %>
             </div>
           </li>
       </ul>
