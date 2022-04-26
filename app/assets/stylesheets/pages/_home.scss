@@ -136,7 +136,7 @@ p {
 }
 
 .info{
-  padding: 20px;
+  // padding: 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -171,10 +171,10 @@ img {
   width: 30%;
 }
 
-//sacando esto se me salio lo de q se rompa cuando se achica
-// .header-box{
-//   height: 150px;
-// }
+sacando esto se me salio lo de q se rompa cuando se achica
+.header-box{
+  height: 150px;
+}
 
 .data-img{
   width: 26%;
