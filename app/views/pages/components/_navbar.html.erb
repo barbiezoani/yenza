@@ -1,11 +1,10 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
   <div class="container-fluid">
-    <%# <%= link_to root_path do %>
     <%= image_tag("yenza_io.png", class: 'navbar-brand')%>
 
-    <%# <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button> %>
+    </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto">
@@ -21,29 +20,33 @@
           <li class="nav-item">
             <a class = "nav-link" href="#nonprofit" data-scroll-to-offset-value="100" data-controller="scroll-to">Non-profit</a>
           </li>
-
-
       </ul>
     </div>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto flags">
-          <li class="nav-item">
-            <%= link_to root_path do %>
-              <%= image_tag("gb.png", class: "flag flag-active") %>
-            <% end %>
-          </li>
-          <li class="nav-item">
-            <%= link_to fr_path do %>
-              <%= image_tag("fr.png", class: "flag flag-no") %>
-            <% end %>
-          </li>
-          <li class="nav-item">
-            <%= link_to de_path do %>
-              <%= image_tag("de.png", class: "flag flag-no") %>
-            <% end %>
+      <ul class="navbar-nav me-auto">
+          <li class="nav-item dropdown">
+            <div class="dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <div class='dropdown-item-lang'>
+                <%= image_tag("gb.png", class: "flag-dropdown-item") %>
+                <p class='lang' >EN</p>
+              </div>
+            </div>
+            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+              <%= link_to root_path do %>
+                <div class='dropdown-item-lang'>
+                  <%= image_tag("de.png", class: "flag-dropdown-item") %>
+                  <p class='lang' >DE</p>
+                </div>
+              <%end %>
+              <%= link_to de_path do %>
+              <div class='dropdown-item-lang'>
+                <%= image_tag("fr.png", class: "flag-dropdown-item") %>
+                <p class='lang'>FR</p>
+              </div>
+              <%end %>
+            </div>
           </li>
       </ul>
     </div>
-
   </div>
 </div>
