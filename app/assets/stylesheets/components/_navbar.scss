@@ -1,9 +1,9 @@
-// para mi q esto no esta haciendo nada
-// @media(max-width: 420px) {
-//   .navbar-brand {
-//     min-width: -webkit-fill-available;
-//   }
-// }
+
+@media(max-width: 420px) {
+  .container-fluid{
+    padding: 0 10px 0 10px !important;
+  }
+}
 
 
 .navbar-lewagon {
@@ -14,6 +14,7 @@
 
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
+  background-color: white;
 }
 
 .navbar-lewagon .navbar-brand  {
@@ -59,8 +60,7 @@
 }
 
 #navbarDropdown{
-  margin-right: 30px;
-  margin-left:100px;
+  margin: auto;
   display: flex;
 }
 
