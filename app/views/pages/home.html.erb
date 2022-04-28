@@ -76,45 +76,4 @@
 
 
   </div>
-  <%# <div id='maps'>
-    <div class='maps-info'>
-      <h3>Location</h3>
-      <p>Address 1</p>
-      <p>Address 2</p>
-    </div>
-    <div class='map-styling'>
-      <div id="map-1" style="height: 300px; width: 300px"></div>
-      <div id="map-2" style="height: 300px; width: 300px"></div>
-    </div>
-    <script>
-      mapboxgl.accessToken = 'pk.eyJ1Ijoic29sYnVrZXIiLCJhIjoiY2t6OGdoanJ5MHZhYjJubjl0cHEydWJuZiJ9.Wq7Of_lX1UPg_iyziPLs7w';
-      const map = new mapboxgl.Map({
-      container: 'map-1', // container ID
-      style: 'mapbox://styles/mapbox/streets-v11', // style URL
-      center: [-74.5, 40], // starting position [lng, lat]
-      zoom: 10 // starting zoom
-      });
-      const marker = new mapboxgl.Marker({
-        color: "#1C9B98"
-      })
-        .setLngLat([-74.5, 40])
-        .setPopup(new mapboxgl.Popup().setHTML("<p>"+"Address"+"</p>"))
-        .addTo(map);
-    </script>
-    <script>
-      mapboxgl.accessToken = 'pk.eyJ1Ijoic29sYnVrZXIiLCJhIjoiY2t6OGdoanJ5MHZhYjJubjl0cHEydWJuZiJ9.Wq7Of_lX1UPg_iyziPLs7w';
-      const map2 = new mapboxgl.Map({
-      container: 'map-2', // container ID
-      style: 'mapbox://styles/mapbox/streets-v11', // style URL
-      center: [-74.5, 40], // starting position [lng, lat]
-      zoom: 10 // starting zoom
-      });
-      const marker2 = new mapboxgl.Marker({
-        color: "#1C9B98"
-      })
-        .setLngLat([-74.5, 40])
-        .setPopup(new mapboxgl.Popup().setHTML("<p>"+"Address"+"</p>"))
-        .addTo(map2);
-    </script>
-  </div> %>
 </div>
