@@ -3,6 +3,13 @@
   .container-fluid{
     padding: 0 10px 0 10px !important;
   }
+  .dropdown-toggle{
+    justify-content: center;
+  }
+  .dropdown-menu{
+    margin: auto;
+    width: 40%;
+  }
 }
 
 .navbar-lewagon {
@@ -62,26 +69,26 @@
   text-align: center;
 }
 
-.flag {
-  border-bottom: 1px solid transparent;
-  &:hover {
-    border-bottom-color: rgb(36, 214, 181);
-    color: rgb(36, 214, 181) !important;
-  }
-  width: 25%;
-}
+// .flag {
+//   border-bottom: 1px solid transparent;
+//   &:hover {
+//     border-bottom-color: rgb(36, 214, 181);
+//     color: rgb(36, 214, 181) !important;
+//   }
+//   width: 25%;
+// }
 
-.flag-no {
-  opacity: 50%;
-  &:hover {
-    border-bottom-color: rgb(36, 214, 181);
-    color: rgb(36, 214, 181) !important;
-  }
-}
+// .flag-no {
+//   opacity: 50%;
+//   &:hover {
+//     border-bottom-color: rgb(36, 214, 181);
+//     color: rgb(36, 214, 181) !important;
+//   }
+// }
 
-.flags {
-  text-align: end;
-}
+// .flags {
+//   text-align: end;
+// }
 
 .dropdown-item-lang{
   padding: 0;
@@ -117,4 +124,9 @@ a{
   border-right: 0.3em solid transparent;
   border-bottom: 0;
   border-left: 0.3em solid transparent;
+  margin-left: -20px;
+}
+
+.navbar-toggler{
+  border: none !important;
 }
