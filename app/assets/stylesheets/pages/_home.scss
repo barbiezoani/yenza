@@ -1,3 +1,9 @@
+@media(max-width: 720px) {
+  .secondary-description{
+    font-size: 16px !important;
+  }
+}
+
 body {
   background: #FFFFFF;
   font-family: Lato, Arial, sans-serif;
@@ -6,16 +12,16 @@ body {
   line-height: 1.7;
 }
 
-.header {
-  font-weight: 700;
-  text-align: center;
-  font-family: Walsheim, Arial, sans-serif;
-  font-size: 65px;
-  margin-top: 120px;
-  margin-bottom: 10px;
-  color: rgb(45, 38, 59);
-  letter-spacing: 6px;
-}
+// .header {
+//   font-weight: 700;
+//   text-align: center;
+//   font-family: Walsheim, Arial, sans-serif;
+//   font-size: 65px;
+//   margin-top: 120px;
+//   margin-bottom: 10px;
+//   color: white;
+//   letter-spacing: 6px;
+// }
 
 .subheader {
   font-weight: 700;
@@ -23,8 +29,8 @@ body {
   font-family: Lato, Arial, sans-serif;
   font-size: 21px;
   line-height: 1.375;
-  color: rgb(45, 38, 59);
-  border-bottom: 1px solid rgb(45, 38, 59);
+  color: white;
+  border-bottom: 1px solid white;;
   width: fit-content;
   margin: 120px auto 40px auto;
   padding-bottom: 10px;
@@ -40,7 +46,7 @@ body {
   font-weight: 300;
   line-height: 40px;
   font-size: 28px;
-  color: #2d263b;
+  color: white;
   padding: 15px;
   text-align: center;
   width: 80%;
@@ -142,4 +148,12 @@ img {
 
 #nonprofit{
   padding: 20px;
+}
+.header-image{
+  background-image: url("/assets/background-img.jpeg");
+  padding: 10px;
+  filter: grayscale(1);
+  margin-top: 70px;
+  height: 60vh;
+
 }
